@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  --color-bg: #0B0D12;
+  --color-surface-1: #111318;
+  --color-surface-2: #191c22;
+  --color-surface-3: #21242c;
+  --color-border: #262930;
+  --color-border-light: #1e2128;
+  --color-text-primary: #F7F8FB;
+  --color-text-secondary: #C5CCD6;
+  --color-text-tertiary: #9CA5B2;
+  --color-accent: #7c6aef;
+  --color-accent-dim: rgba(124, 106, 239, 0.12);
+  --color-accent-subtle: rgba(124, 106, 239, 0.06);
+  --color-blue: #5b8def;
+  --color-blue-dim: rgba(91, 141, 239, 0.12);
+  --color-teal: #4ecdc4;
+  --color-teal-dim: rgba(78, 205, 196, 0.10);
+  --color-red-soft: #ef6b6b;
+  --color-red-dim: rgba(239, 107, 107, 0.10);
+  --color-green-soft: #5bbf72;
+  --color-green-dim: rgba(91, 191, 114, 0.10);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Geist', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  margin: 0;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
