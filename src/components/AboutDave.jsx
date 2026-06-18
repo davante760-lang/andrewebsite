@@ -20,14 +20,14 @@ export default function AboutDave() {
               <div className="relative rounded-xl overflow-hidden border border-border">
                 <img
                   src="/family.jpg"
-                  alt="Dave Alexander with his family in Carlsbad, CA"
+                  alt="Dave Alexander with his family"
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-white/5" />
               </div>
               <p className="text-[10px] tracking-[0.12em] uppercase text-text-tertiary mt-3 text-center">
-                Carlsbad, CA
+                North Richland Hills, TX
               </p>
             </motion.div>
           </FadeIn>
@@ -36,9 +36,9 @@ export default function AboutDave() {
           <div className="space-y-5 text-[14.5px] leading-[1.75] text-text-secondary">
             <FadeIn delay={0.15}>
               <p>
-                Based in Carlsbad, CA. I've spent 6 years in enterprise SaaS: insurance tech, then
-                fleet safety and IoT at Samsara. Somewhere in the middle of that, built and sold an
-                independent insurance agency on the side.
+                Based in North Richland Hills, TX. I've spent 6 years in enterprise SaaS: insurance
+                tech, then fleet safety and IoT at Samsara. Somewhere in the middle of that, built
+                and sold an independent insurance agency on the side.
               </p>
             </FadeIn>
             <FadeIn delay={0.2}>

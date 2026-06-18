@@ -31,7 +31,7 @@ export default function ResumeDownload() {
             Download Resume (PDF)
           </motion.a>
           <p className="text-text-tertiary text-xs mt-3">
-            One-page PDF · Updated March 2026
+            One-page PDF · Updated June 2026
           </p>
         </FadeIn>
       </div>

@@ -7,34 +7,22 @@ const companies = [
     logo: '/logo-samsara.png',
     invertLogo: true,
     role: 'Senior Account Executive, Enterprise',
-    stats: [
-      { label: 'Quota', value: '$1.5M' },
-      { label: 'Attainment', value: '124% avg · 2× President\'s Club' },
-    ],
     takeaway:
-      'Learned to build pipeline in a saturated market by reframing conversations around operational risk, not product features.',
+      '118% avg quota attainment across FY24 & FY25 against $1.5M. $6–7M in qualified pipeline annually, ~55% self-sourced. Two-time President\u2019s Club, fewer than 12 reps to qualify across the Enterprise org.',
   },
   {
     name: 'Applied Systems',
     logo: '/logo-applied.png',
     role: 'Account Executive, Mid-Market',
-    stats: [
-      { label: 'Quota', value: '$800K' },
-      { label: 'Attainment', value: '105%' },
-    ],
     takeaway:
-      'Where I learned that the real sale in a legacy-replacement motion is change management, not technology.',
+      '105% against an $800K quota, Top 3 on a team of 8 in a year where ~50% of the team hit number. Closed 18 net-new AMS replacement deals on 3.5\u00d7 pipeline coverage.',
   },
   {
     name: 'EZLynx',
     logo: '/logo-ezlynx.png',
-    role: 'Account Executive, SMB',
-    stats: [
-      { label: 'Quota', value: '$350K' },
-      { label: 'Attainment', value: 'Largest deal of the year · Top pipeline generator' },
-    ],
+    role: 'Account Executive, SMB → BDR',
     takeaway:
-      'Where outbound discipline and trigger-based prospecting became the foundation everything else is built on.',
+      'Closed the largest full-suite AMS replacement on the SMB team that year. As BDR: $400K+ qualified pipeline in a single quarter and a ~25% lift in connect-to-meeting conversion.',
   },
 ]
 
@@ -69,7 +57,7 @@ export default function WorkHistory() {
                   <img
                     src={company.logo}
                     alt={company.name}
-                    className={`h-8 max-w-[140px] object-contain${company.invertLogo ? ' invert brightness-0 invert' : ''}`}
+                    className="h-8 max-w-[140px] object-contain"
                     style={company.invertLogo ? { filter: 'brightness(0) invert(1)' } : undefined}
                   />
                 </div>
@@ -79,23 +67,9 @@ export default function WorkHistory() {
                   {company.role}
                 </h3>
 
-                {/* Stats */}
-                <div className="space-y-3 mb-4">
-                  {company.stats.map((stat) => (
-                    <div key={stat.label}>
-                      <div className="text-[10px] uppercase tracking-[0.15em] text-text-tertiary mb-1">
-                        {stat.label}
-                      </div>
-                      <div className="text-[13px] font-medium text-text-primary leading-snug">
-                        {stat.value}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
                 {/* Takeaway */}
                 <div className="mt-auto pt-4 border-t border-border-light">
-                  <p className="text-[12.5px] italic text-text-tertiary leading-[1.65]">
+                  <p className="text-[13px] italic text-text-tertiary leading-[1.65]">
                     "{company.takeaway}"
                   </p>
                 </div>
