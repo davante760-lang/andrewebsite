@@ -5,7 +5,7 @@ const companies = [
   {
     name: 'Netradyne',
     logo: '/logo-netradyne.png',
-    showWordmark: true,
+    invertLogo: true,
     role: 'Enterprise AE, Mid-Enterprise (Jan 2025–Present)',
     takeaway:
       "Rookie of the Year 2025. #1 Closed-Won ARR and #1 New-Logo Wins among all 2025 hires against a $920K quota. Built $5.2M qualified pipeline (3–5\u00d7 coverage), ranked Top 2 division-wide. 60% head-to-head win rate; 4 of 16 net-new deals closed without a pilot — the most non-trial wins in the org.",
@@ -21,7 +21,6 @@ const companies = [
   {
     name: 'Verizon',
     logo: '/logo-verizon.png',
-    showWordmark: true,
     role: 'Senior Account Manager, Business Market (Jul 2017–Jan 2023)',
     takeaway:
       '#2 statewide in Business Sales (Georgia, 2022). Exceeded targets by 152% in Q3 2022 and 138% in Q1 2022. Six years of full-cycle B2B selling into mid-market across telecom, mobility, and IoT.',
