@@ -8,7 +8,7 @@ const companies = [
     invertLogo: true,
     role: 'Enterprise AE, Mid-Enterprise (Jan 2025–Present)',
     takeaway:
-      "Rookie of the Year 2025. #1 Closed-Won ARR and #1 New-Logo Wins among all 2025 hires against a $920K quota. Built $5.2M qualified pipeline (3–5\u00d7 coverage), ranked Top 2 division-wide. 60% head-to-head win rate; 4 of 16 net-new deals closed without a pilot — the most non-trial wins in the org.",
+      "Rookie of the Year 2025. #1 Closed-Won ARR and #1 New-Logo Wins among all 2025 hires against a $920K quota. Built $5.2M qualified pipeline (3–5\u00d7 coverage), ranked Top 2 division-wide. 60% head-to-head win rate. 4 of 16 net-new deals closed without a pilot, the most non-trial wins in the org.",
   },
   {
     name: 'Samsara',

@@ -12,7 +12,7 @@ const cards = [
   },
   {
     title: 'Executive Alignment',
-    body: 'The ability to move beyond technical champions to reach the economic buyer — and keep them engaged through a 6–10 stakeholder procurement process.',
+    body: 'The ability to move beyond technical champions to reach the economic buyer, and keep them engaged through a 6–10 stakeholder procurement process.',
   },
   {
     title: 'Qualification Discipline',

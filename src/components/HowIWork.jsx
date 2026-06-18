@@ -3,7 +3,7 @@ import { FadeIn, SectionTitle } from './AnimatedSection'
 const items = [
   {
     title: 'Trial-Free Closing',
-    body: '4 of 16 net-new deals at Netradyne closed without a pilot — the most in my org. I replace the POC with rigorous discovery that surfaces the cost of inaction early and builds the business case before procurement ever gets involved.',
+    body: '4 of 16 net-new deals at Netradyne closed without a pilot. The most in my org. I replace the POC with rigorous discovery that surfaces the cost of inaction early and builds the business case before procurement ever gets involved.',
   },
   {
     title: 'Multi-Threaded Alignment',

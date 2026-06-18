@@ -4,7 +4,7 @@ import { FadeIn, SectionTitle } from './AnimatedSection'
 const cards = [
   {
     title: 'Enterprise Motion',
-    body: 'Complex, multi-stakeholder deals with meaningful ACV — not velocity selling or SMB volume. I run the full cycle: prospecting, discovery, executive alignment, procurement, legal, and close.',
+    body: 'Complex, multi-stakeholder deals with meaningful ACV. Not velocity selling or SMB volume. I run the full cycle: prospecting, discovery, executive alignment, procurement, legal, and close.',
   },
   {
     title: 'The Legacy Replacement Motion',

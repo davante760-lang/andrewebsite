@@ -35,7 +35,7 @@ export default function Hero() {
           className="text-text-secondary text-[14.5px] leading-[1.75] max-w-[620px] mx-auto"
         >
           Rookie of the Year closer for complex, multi-stakeholder AI SaaS deals. Eight years across
-          telecom, IoT, and fleet safety — from Verizon Business to Samsara to Netradyne.
+          telecom, IoT, and fleet safety. From Verizon Business to Samsara to Netradyne.
           Specialized in trial-free selling, competitive displacement, and building the executive
           business case that moves a buying committee off the incumbent.
         </motion.p>

@@ -36,8 +36,8 @@ export default function AboutAndre() {
           <div className="space-y-5 text-[14.5px] leading-[1.75] text-text-secondary">
             <FadeIn delay={0.15}>
               <p>
-                Based in Atlanta, GA. Eight years in SaaS and IoT sales — Verizon Business, Samsara,
-                and now Netradyne, where I earned Rookie of the Year in 2025 and currently sit #2 in
+                Based in Atlanta, GA. Eight years in SaaS and IoT sales across Verizon Business,
+                Samsara, and now Netradyne, where I earned Rookie of the Year in 2025 and currently sit #2 in
                 total ARR attainment across the mid-market org. MEDDPICC Certified. Challenger Sale
                 trained.
               </p>
