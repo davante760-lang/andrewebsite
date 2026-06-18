@@ -3,16 +3,16 @@ import { FadeIn, SectionTitle } from './AnimatedSection'
 
 const cards = [
   {
-    title: 'Operational Complexity',
-    body: 'Industries that run on manual workflows and siloed data.',
+    title: 'Enterprise Motion',
+    body: 'Complex, multi-stakeholder deals with meaningful ACV — not velocity selling or SMB volume. I run the full cycle: prospecting, discovery, executive alignment, procurement, legal, and close.',
   },
   {
     title: 'The Legacy Replacement Motion',
-    body: `Helping buyers rethink the cost of staying with a system that still technically "works" but creates operational risk.`,
+    body: `Helping buyers rethink the cost of staying with a system that still technically "works" but creates operational and financial risk.`,
   },
   {
-    title: 'Category Creation',
-    body: 'Early-stage environments where the AE is responsible for shaping the sales playbook, not just executing one.',
+    title: 'Early-Stage with Structure',
+    body: 'Environments where the playbook is still being built and leadership values commercial judgment over raw activity volume. I want to be part of shaping how the org sells, not just executing a defined script.',
   },
 ]
 
@@ -26,7 +26,7 @@ export default function WhatImBuiltFor() {
 
         <FadeIn delay={0.05}>
           <p className="text-[14.5px] leading-[1.75] text-text-secondary max-w-[680px] mb-8">
-            I thrive in organizations where the following three factors intersect:
+            I thrive in organizations where the following factors intersect:
           </p>
         </FadeIn>
 

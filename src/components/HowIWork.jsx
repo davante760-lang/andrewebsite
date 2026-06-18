@@ -2,16 +2,20 @@ import { FadeIn, SectionTitle } from './AnimatedSection'
 
 const items = [
   {
-    title: 'Trigger-Based Prospecting',
-    body: 'I tier territories into 15–20 priority accounts based on active signals: M&A, leadership shifts, or compliance audits. I lead with the business change, not a product pitch.',
+    title: 'Trial-Free Closing',
+    body: '4 of 16 net-new deals at Netradyne closed without a pilot — the most in my org. I replace the POC with rigorous discovery that surfaces the cost of inaction early and builds the business case before procurement ever gets involved.',
   },
   {
     title: 'Multi-Threaded Alignment',
-    body: 'I run simultaneous top-down (C-Suite) and bottom-up (Operational Staff) threads. One champion is a single point of failure; I build committees around a shared business case.',
+    body: 'I run simultaneous top-down (C-Suite) and bottom-up (Operational Staff) threads. One champion is a single point of failure. I build committees around a shared business case spanning COO, CFO, InfoSec, and Legal.',
   },
   {
     title: 'Hard-Stop Qualification',
-    body: 'I prioritize "no" over "maybe." I surface contract buyouts, legal blockers, and budget authority early to ensure resources are only deployed against deals with a real path to action.',
+    body: 'MEDDPICC from day one. I surface contract buyouts, legal blockers, and budget authority early so resources are only deployed against deals with a real path to close.',
+  },
+  {
+    title: 'Outbound First',
+    body: "I don't wait for inbound. Cold outbound is my primary pipeline channel, supplemented by insurance channel partners and trade association events in fleet-dependent verticals.",
   },
 ]
 

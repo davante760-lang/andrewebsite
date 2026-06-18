@@ -3,26 +3,28 @@ import { motion } from 'framer-motion'
 
 const companies = [
   {
+    name: 'Netradyne',
+    logo: '/logo-netradyne.png',
+    showWordmark: true,
+    role: 'Enterprise AE, Mid-Enterprise (Jan 2025–Present)',
+    takeaway:
+      "Rookie of the Year 2025. #1 Closed-Won ARR and #1 New-Logo Wins among all 2025 hires against a $920K quota. Built $5.2M qualified pipeline (3–5\u00d7 coverage), ranked Top 2 division-wide. 60% head-to-head win rate; 4 of 16 net-new deals closed without a pilot — the most non-trial wins in the org.",
+  },
+  {
     name: 'Samsara',
     logo: '/logo-samsara.png',
     invertLogo: true,
-    role: 'Senior Account Executive, Enterprise',
+    role: 'Senior AE, Mid-Market (Jan 2023–Jan 2025)',
     takeaway:
-      '118% avg quota attainment across FY24 & FY25 against $1.5M. $6–7M in qualified pipeline annually, ~55% self-sourced. Two-time President\u2019s Club, fewer than 12 reps to qualify across the Enterprise org.',
+      '103% of $902K quota in FY23. $490K+ net-new ACV in first 6 months. Deal of the Quarter ($118K competitive displacement). Drove 30% additional revenue via land-and-expand within first 12 months of customer acquisition.',
   },
   {
-    name: 'Applied Systems',
-    logo: '/logo-applied.png',
-    role: 'Account Executive, Mid-Market',
+    name: 'Verizon',
+    logo: '/logo-verizon.png',
+    showWordmark: true,
+    role: 'Senior Account Manager, Business Market (Jul 2017–Jan 2023)',
     takeaway:
-      '105% against an $800K quota, Top 3 on a team of 8 in a year where ~50% of the team hit number. Closed 18 net-new AMS replacement deals on 3.5\u00d7 pipeline coverage.',
-  },
-  {
-    name: 'EZLynx',
-    logo: '/logo-ezlynx.png',
-    role: 'Account Executive, SMB → BDR',
-    takeaway:
-      'Closed the largest full-suite AMS replacement on the SMB team that year. As BDR: $400K+ qualified pipeline in a single quarter and a ~25% lift in connect-to-meeting conversion.',
+      '#2 statewide in Business Sales (Georgia, 2022). Exceeded targets by 152% in Q3 2022 and 138% in Q1 2022. Six years of full-cycle B2B selling into mid-market across telecom, mobility, and IoT.',
   },
 ]
 
@@ -52,14 +54,20 @@ export default function WorkHistory() {
                 whileHover={{ y: -2 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 20 }}
               >
-                {/* Logo */}
+                {/* Logo / wordmark */}
                 <div className="h-10 mb-4 flex items-center">
-                  <img
-                    src={company.logo}
-                    alt={company.name}
-                    className="h-8 max-w-[140px] object-contain"
-                    style={company.invertLogo ? { filter: 'brightness(0) invert(1)' } : undefined}
-                  />
+                  {company.showWordmark ? (
+                    <span className="font-heading text-[18px] font-semibold text-text-primary tracking-[-0.01em]">
+                      {company.name}
+                    </span>
+                  ) : (
+                    <img
+                      src={company.logo}
+                      alt={company.name}
+                      className="h-8 max-w-[140px] object-contain"
+                      style={company.invertLogo ? { filter: 'brightness(0) invert(1)' } : undefined}
+                    />
+                  )}
                 </div>
 
                 {/* Role */}

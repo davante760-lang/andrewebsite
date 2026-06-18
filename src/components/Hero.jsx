@@ -23,10 +23,10 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="block text-[11px] uppercase tracking-[0.2em] font-medium text-accent mb-6"
         >
-          Commercial Operator | Enterprise Sales
+          Full-Cycle AE | Enterprise Sales
         </motion.span>
 
-        <ElectricText text="Dave Alexander" className="flex justify-center mb-6" />
+        <ElectricText text="Andre Stewart" className="flex justify-center mb-6" />
 
         <motion.p
           initial={{ opacity: 0, y: 12 }}
@@ -34,10 +34,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="text-text-secondary text-[14.5px] leading-[1.75] max-w-[620px] mx-auto"
         >
-          Commercial operator for complex, legacy-heavy markets. Six years across insurtech and
-          operational SaaS. Specialized in consultative, multi-stakeholder deals where the real
-          sale is change management, executive alignment, and a business case that holds up at the
-          leadership level. Two-time President's Club.
+          Rookie of the Year closer for complex, multi-stakeholder AI SaaS deals. Eight years across
+          telecom, IoT, and fleet safety — from Verizon Business to Samsara to Netradyne.
+          Specialized in trial-free selling, competitive displacement, and building the executive
+          business case that moves a buying committee off the incumbent.
         </motion.p>
       </div>
 

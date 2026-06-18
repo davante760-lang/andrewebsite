@@ -7,7 +7,7 @@ export default function ResumeDownload() {
       <div className="max-w-[860px] mx-auto text-center">
         <FadeIn>
           <motion.a
-            href="/DaveAlexanderResume.pdf"
+            href="/AndreStewartResume.pdf"
             download
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -31,7 +31,7 @@ export default function ResumeDownload() {
             Download Resume (PDF)
           </motion.a>
           <p className="text-text-tertiary text-xs mt-3">
-            One-page PDF · Updated June 2026
+            Two-page PDF · Updated June 2026
           </p>
         </FadeIn>
       </div>

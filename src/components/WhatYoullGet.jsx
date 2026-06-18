@@ -7,16 +7,16 @@ const cards = [
     body: `I don't wait for inbound. I build my own territory.`,
   },
   {
-    title: 'Legacy Market Fluency',
-    body: 'Six years selling AI and modern SaaS into slow-adoption industries. Closing here means more than a demo: it\u2019s working through change-management hesitation, demonstrating ROI against the customer\u2019s own past performance, and running structured POCs that get trials converted to customers.',
+    title: 'Competitive Displacement',
+    body: "Eight years selling AI and modern SaaS into operationally conservative industries. Closing here means more than a demo: it's working through change-management hesitation, demonstrating ROI against the customer's own past performance, and eliminating the pilot entirely.",
   },
   {
     title: 'Executive Alignment',
-    body: 'The ability to move beyond technical champions to reach the economic buyer.',
+    body: 'The ability to move beyond technical champions to reach the economic buyer — and keep them engaged through a 6–10 stakeholder procurement process.',
   },
   {
     title: 'Qualification Discipline',
-    body: 'A clean CRM and an honest forecast based on hard-stop discovery.',
+    body: 'A clean CRM and an honest forecast based on hard-stop MEDDPICC discovery.',
   },
 ]
 

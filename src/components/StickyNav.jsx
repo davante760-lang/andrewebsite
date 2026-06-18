@@ -50,7 +50,7 @@ export default function StickyNav() {
         }}
       >
         {/* Logo mark + wordmark */}
-        <a href="/" className="flex items-center gap-2 pl-2 pr-1 sm:pr-2 group" aria-label="Dave Alexander home">
+        <a href="/" className="flex items-center gap-2 pl-2 pr-1 sm:pr-2 group" aria-label="Andre Stewart home">
           <span
             className="inline-block h-4 w-4 rounded-[4px]"
             style={{
@@ -60,7 +60,7 @@ export default function StickyNav() {
             aria-hidden="true"
           />
           <span className="font-semibold text-[14px] text-white tracking-[-0.01em]">
-            Dave Alexander
+            Andre Stewart
           </span>
         </a>
 
